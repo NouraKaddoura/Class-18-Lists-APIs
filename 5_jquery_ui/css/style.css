@@ -1,0 +1,19 @@
+body {
+    font-family: Arial;
+    background: url('../images/background.jpg');
+}
+#draggable {
+    background: url('../images/car.png');
+    background-size: cover;
+    width: 300px; 
+    height: 200px; 
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+#droppable {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    padding: 50px;
+}
